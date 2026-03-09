@@ -1,0 +1,51 @@
+.leak-detection-map {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.candidates-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.candidates-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.candidate-card {
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.candidate-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+}
+
+.candidate-card.selected {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.candidate-detail {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.no-candidates {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  color: #6b7280;
+}

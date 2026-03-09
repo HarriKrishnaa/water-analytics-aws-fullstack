@@ -1,0 +1,70 @@
+/* Alert Panel Styles */
+.alert-panel {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #1f1f1f 0%, #2d2d2d 100%);
+  border-radius: 12px;
+  border-left: 4px solid #ff6b6b;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.alert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.alert-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-item:last-child {
+  border-bottom: none;
+}
+
+.alert-message {
+  flex: 1;
+  color: #e0e0e0;
+}
+
+.alert-severity {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.severity-critical {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.severity-high {
+  background-color: #ffa66d;
+  color: white;
+}
+
+.severity-medium {
+  background-color: #ffd93d;
+  color: #333;
+}
+
+.no-alerts {
+  color: #66bb6a;
+  font-style: italic;
+  padding: 1rem 0;
+}
