@@ -1,0 +1,24 @@
+{
+  "name": "water-analytics-backend",
+  "version": "1.0.0",
+  "description": "AWS Lambda backend for water analytics system",
+  "main": "functions/api-handler/index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "sam deploy",
+    "build": "sam build"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1430.0",
+    "uuid": "^9.0.0",
+    "nodemailer": "^6.9.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "aws-sam-cli": "latest"
+  },
+  "keywords": ["water-analytics", "aws-lambda", "iot"],
+  "author": "Harri Krishnaa",
+  "license": "MIT"
+}
